@@ -1,5 +1,5 @@
 name: primeiro-workflow # Nome tecnico
-run name: Meu Primeiro Workflow # Nome descritivo
+run-name: Meu Primeiro Workflow # Nome descritivo
 
 # on: [push]
 
