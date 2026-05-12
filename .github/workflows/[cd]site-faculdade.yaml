@@ -3,7 +3,8 @@ run-name: Deploy do App
 
 on:
     push:
-        - main
+        branches:
+            - main
 
 jobs:
     Deploy:
@@ -35,4 +36,3 @@ jobs:
                 app-name: frontend-2501625
                 image: joaofrangiotti/frontend-2501625:latest
                 publish-profile: ${{secrets.PUBLISH_PROFILE }}
-                
